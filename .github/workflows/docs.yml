@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   build:
-    # Off until GitHub Pages is set up (repository variable PAGES_ENABLED = true, RELEASING.md step 6).
+    # Off until GitHub Pages is set up (repository variable PAGES_ENABLED = true, RELEASING.md step 4).
     if: ${{ vars.PAGES_ENABLED == 'true' }}
     runs-on: ubuntu-latest
     steps:
